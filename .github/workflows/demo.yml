@@ -2,7 +2,7 @@ name: GitHub Actions Demo
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    default:
+    defaults:
       run:
         working-directory: test/
     runs-on: ubuntu-latest
